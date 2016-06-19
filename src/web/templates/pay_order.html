@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+    <p>Hit the pay button</p>
+    <form action="/purchase" method="POST">
+        <script
+                src="https://checkout.razorpay.com/v1/checkout.js"
+                data-key="XXX"
+                data-amount="10000"
+                data-name="Karthik"
+                data-description="description"
+                data-image="http://placehold.it/350x150"
+                data-prefill.name="Karthik Viswanathan"
+                data-prefill.email="random@example.com"
+                data-theme.color="#F37254"
+        ></script>
+        <input type="hidden" value="SuperSecretPayElement" name="hidden">
+    </form>
+{% endblock %}

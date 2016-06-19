@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h3>Payment complete</h3>
+    {% if success %}
+        <p>and success, with payment id <code>{{ pay_id }}</code></p>
+    {% else %}
+        <p>failed</p>
+    {% endif %}
+    </div>
+{% endblock %}
