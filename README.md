@@ -1,11 +1,11 @@
 # buddypay
 
-A long time ago, in a galaxy far far away ... 
+A long time ago, in a galaxy far far away ...
 
-Side-project where I wanted to send moeny to another entity/person using just their number. 
-You share a contact with a whatsapp number (a bot actually), a link gets generated, and you hit pay ([RazorPay](https://razorpay.com/)). Never completed it, just putting it out there.
+Side-project where I wanted to send money to another entity/person using just their number.
+You share a contact with a WhatsApp number (a bot actually), a link gets generated, and you hit pay ([RazorPay](https://razorpay.com/)). Never completed it, just putting it out there.
 
-Shoved it becuase we now have UPI http://www.npci.org.in/home.aspx.  
+Shoved it because we now have UPI http://www.npci.org.in/home.aspx.  
 
 #### LICENSE
 
